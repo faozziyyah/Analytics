@@ -36,7 +36,7 @@ const Navbar = () => {
 
       <img src={logo} alt='' id='logo' />
 
-      <div className="navitem flex justify-between items-center w-3/4">
+      <div className="navitem md:flex justify-between items-center w-3/4">
 
         {links.map(({ id, link }) => (
           <div
@@ -54,8 +54,8 @@ const Navbar = () => {
 
       <div onClick={() => setNav(!nav)} className="toggler md:hidden">
 
-        {nav ? <img src={hamburger} alt='logo' width='50' height='50'/> : 
-          <img src={close} alt='logo' width='30' height='30'/>
+        {nav ? <img src={close} alt='logo' width='50' height='50'/> : 
+          <img src={hamburger} alt='logo' width='30' height='30'/>
         }
 
       </div>
@@ -66,13 +66,17 @@ const Navbar = () => {
 
           {links.map(({ id, link }) => (
             <div
-              key={id}
+              key={id} className='mt-4'
             >
-              <a onClick={() => setNav(!nav)} href={link}>
+              <a className='capitalize' onClick={() => setNav(!nav)} href={link}>
                 {link}
               </a>
             </div>
           ))}
+
+        <img src={download} alt='' />
+
+        <a className='capitalize' href='/'>Contact Us</a>
 
         </div>
 

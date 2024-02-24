@@ -37,7 +37,7 @@
   color: #7b844d;
 }
 
-.navitem a, .p1, .idea p, .extra > div > p, .footer {
+.navitem a, .mobilenav a, .p1, .idea p, .extra > div > p, .footer {
   color: #a2aa7b;
 }
 
@@ -64,4 +64,49 @@
 
 .extra > img {
   width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+
+  .navitem{
+    display: none;
+  }
+
+  .mobilenav{
+    position: absolute;
+    z-index: 99999;
+    background-color: #25221b;
+    box-shadow: rgba(82, 81, 81, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 80vh;
+    top: 5em;
+    padding: 2em;
+  }
+
+  .mobilenav a {
+    margin-top: 1em;
+  }
+
+  .mobilenav img {
+    width: 30%;
+    margin-top: 1em;
+  }
+
+  #image{
+    margin-top: 2em;
+  }
+
+  .idea, .extra > div, .extra > img{
+    width: 80%;
+    margin: auto;
+    margin-top: 1em;
+  }
+
+  .idea{
+    width: 100%;
+    margin-top: 2em;
+  }
+  
 }

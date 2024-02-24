@@ -15,9 +15,9 @@ const Main = () => {
   return (
     <div className='container flex flex-col'>
 
-      <section className='hero flex mt-32 justify-between items-center text-white'>
+      <section className='hero mt-16 md:flex md:mt-32 md:justify-between items-center text-white'>
 
-        <aside className='aside w-3/5'>
+        <aside className='aside md:w-3/5'>
 
           <h3 className='font-bold text-5xl'>Skinify: your personalized skin care AI</h3>
 
@@ -25,7 +25,7 @@ const Main = () => {
             Harnesses the power of AI and mobile technology into skin care.
           </p>
 
-          <section className='infos flex w-full mt-8 justify-between items-center'>
+          <section className='infos flex w-full mt-8 justify-between md:items-center'>
 
             <div className='info'>
               <p className='text-base p1'>Team</p>
@@ -51,11 +51,11 @@ const Main = () => {
 
         </aside>
 
-        <img src={image} alt='' id='image' className='w-1/3' />
+        <img src={image} alt='' id='image' className='md:w-1/3' />
 
       </section>
 
-      <section className='about flex justify-between items-center mt-32 text-white'>
+      <section className='about md:flex md:justify-between items-center mt-32'>
 
         <div className='idea flex flex-col items-center rounded-2xl px-4 py-4'>
 
@@ -120,7 +120,7 @@ const Main = () => {
 
       </section>
 
-      <section className='extra flex justify-between items-center mt-16'>
+      <section className='extra md:flex md:justify-between items-center mt-16'>
 
         <div className='flex flex-col justify-center items-center'>
           <img src={logo} alt='' />
