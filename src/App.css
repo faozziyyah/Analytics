@@ -24,4 +24,44 @@
 
 .idea{
   box-shadow: rgba(82, 81, 81, 0.35) 0px 5px 15px;
+  width: 30%;
+  height: 350px;
+  /*box-shadow: #564b3e 0px 5px 15px;*/
+}
+
+.idea:hover{
+  border: 2px solid #564b3e;
+}
+
+.h3, .design h1, .aside h3{
+  color: #7b844d;
+}
+
+.navitem a, .p1, .idea p, .extra > div > p, .footer {
+  color: #a2aa7b;
+}
+
+.idealogo{
+  width: 15%;
+}
+
+.design h3, .p2{
+  color: #564b3e;
+}
+
+.images img {
+  width: 20%;
+  border-radius: 10px;
+}
+
+.images img:hover {
+  box-shadow: rgba(82, 81, 81, 0.35) 0px 5px 15px;
+}
+
+.extra > div {
+  width: 30%;
+}
+
+.extra > img {
+  width: 40%;
 }

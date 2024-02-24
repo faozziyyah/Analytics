@@ -42,13 +42,13 @@ const Navbar = () => {
           <div
             key={id}
           >
-            <a className='text-white capitalize' href={link}>{link}</a>
+            <a className='capitalize' href={link}>{link}</a>
           </div>
         ))}
 
         <img src={download} alt='' />
 
-        <a className='text-white capitalize' href='/'>Contact Us</a>
+        <a className='capitalize' href='/'>Contact Us</a>
 
       </div>
 
