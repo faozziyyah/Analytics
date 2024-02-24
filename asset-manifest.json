@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/skinnify/static/css/main.8642e12d.css",
+    "main.js": "/skinnify/static/js/main.54500957.js",
+    "static/media/pic2.jpg": "/skinnify/static/media/pic2.1acf9f96181fbf220a4a.jpg",
+    "static/media/pic1.jpg": "/skinnify/static/media/pic1.2e475eac37fd9609e504.jpg",
+    "static/media/pic.jpg": "/skinnify/static/media/pic.ad82ad50fc0b3bcc56f3.jpg",
+    "static/media/pic3.jpg": "/skinnify/static/media/pic3.f4e64c5d6930ca8ef63a.jpg",
+    "static/media/15.jpg": "/skinnify/static/media/15.c732734e1e87465ba092.jpg",
+    "static/media/Logo1.svg": "/skinnify/static/media/Logo1.ef569d031b79ed604c0c3e4c862a4c4e.svg",
+    "static/media/time-line3.svg": "/skinnify/static/media/time-line3.8af66da969fbb326f279b883a7c4a2b0.svg",
+    "static/media/time-line1.svg": "/skinnify/static/media/time-line1.d9d6df419645fb7177a6bbea32f375ef.svg",
+    "static/media/time-line2.svg": "/skinnify/static/media/time-line2.838c5fc3b3ff48e58c600b8f203598f6.svg",
+    "index.html": "/skinnify/index.html",
+    "main.8642e12d.css.map": "/skinnify/static/css/main.8642e12d.css.map",
+    "main.54500957.js.map": "/skinnify/static/js/main.54500957.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8642e12d.css",
+    "static/js/main.54500957.js"
+  ]
+}
